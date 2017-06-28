@@ -1,0 +1,60 @@
+.title {
+  font-size: 40px;
+  color: purple;
+  text-align: center;
+  font-family: neuropol;
+}
+
+div p {
+    font-style: normal;
+    font-size: 16px;
+    float: left;
+    display: inline-block;
+      }
+
+.picholder1  {
+float: left;
+margin-right: 10px;
+margin-bottom: 10px;
+
+}
+
+.picholder2  {
+float: right;
+margin-left: 10px;
+margin-bottom: 10px;
+}
+
+.picholder3  {
+display: block;
+margin: 0 auto;
+}
+
+
+      @media (min-width: 1201px) {
+        body {
+          font-size: 22px;
+          background-color: powderblue;
+        }
+      }
+
+      @media (max-width: 1200px) {
+        body {
+          font-size: 20px;
+          background-color: orange;
+        }
+      }
+
+      @media (max-width: 800px) {
+        body {
+          font-size: 15px;
+          background-color: limegreen;
+        }
+      }
+
+      @media (max-width: 400px) {
+        body {
+          font-size: 10px;
+          background-color: yellow;
+        }
+      }
